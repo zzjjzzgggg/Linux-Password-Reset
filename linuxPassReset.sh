@@ -15,8 +15,8 @@ then
 	echo "Changing Password for User: $user"
 	# mount -o remount,rw /
 	echo ""
-	echo "Enter drive[Linux] Name (Ex. /dev/sda6), Make sure it's correct else it may damage your file system : "
-	mount /dev/sda6 /mnt 
+	echo "Enter drive[Linux] Name (Ex. /dev/sda2), Make sure it's correct else it may damage your file system : "
+	mount /dev/sda2 /mnt
 	chroot /mnt
 else
 	echo ""
